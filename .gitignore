@@ -1,0 +1,42 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+FIEL/
+fiel/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large/local data (PhysioNet AFPDB waveforms)
+afpdb/
+*.dat
+
+# Heavy generated artifacts / caches
+artifacts/
+notebook_cache/
+outputs_medicon2026/
+*.pptx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archives / packages
+*.zip
+*.7z
+*.tar.gz
