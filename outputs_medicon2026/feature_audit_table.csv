@@ -1,0 +1,15 @@
+feature,n_missing,pct_missing,in_original_6,in_spc_fast_14
+alarm_events,0,0.0,True,True
+pct_alarm_sustained,0,0.0,True,True
+max_cusum,0,0.0,True,True
+final_cusum,0,0.0,True,True
+median_rmssd,0,0.0,True,True
+median_z,0,0.0,True,True
+max_cusum_pos,0,0.0,False,True
+max_cusum_neg,0,0.0,False,True
+final_cusum_pos,0,0.0,False,True
+final_cusum_neg,0,0.0,False,True
+subwindow_sqi_good_frac,0,0.0,False,True
+rr_cv,0,0.0,False,True
+rr_masd_over_mean,0,0.0,False,True
+segment_rr_mad_ms,0,0.0,False,True

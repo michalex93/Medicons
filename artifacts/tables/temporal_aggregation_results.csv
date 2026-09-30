@@ -1,0 +1,5 @@
+window_type,window_size,n_features,auc_mean,pairwise_concordance_mean
+rr_count,100.0,70,0.792,0.76
+rr_count,128.0,70,0.744,0.76
+time,300.0,70,0.816,0.84
+full_record,1800.0,70,0.864,0.92

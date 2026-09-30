@@ -1,0 +1,6 @@
+config,n_features,use_pruning,auc
+hrv_reduced_interpretable,3,False,0.6544
+B_SPC,30,False,0.776
+B_SPC_pruned,30,True,0.752
+C_HRV_SPC,33,False,0.7664
+D_HRV_SPC_Poincare,36,False,0.776

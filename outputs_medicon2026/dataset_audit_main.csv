@@ -1,0 +1,12 @@
+audit_rule,passed,detail
+no_registro_c_en_dataset,True,Ningún record_id debe terminar en 'c'.
+no_registro_n_en_tarea_principal,True,Sin registros n* en far vs pre-onset.
+cada_pair_id_tiene_dos_filas,True,"Conteos: {0: 2, 1: 2, 2: 2, 3: 2, 4: 2, 5: 2, 6: 2, 7: 2, 8: 2, 9: 2, 10: 2, 11: 2, 12: 2, 13: 2, 14: 2, 15: 2, 16: 2, 17: 2, 18: 2, 19: 2, 20: 2, 21: 2, 22: 2, 23: 2, 24: 2}"
+cada_pair_tiene_y0_y_y1,True,"         min  max  nunique
+pair_id                   
+0          0    1        2
+1          0    1        2
+2          0    1        2
+3          0    1        2
+4          0    1        2"
+ningun_pair_id_en_train_y_val_mismo_fold,True,GroupKFold(5); ver gkf_fold_audit.csv

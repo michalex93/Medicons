@@ -1,0 +1,12 @@
+{
+  "decision_threshold": 0.5,
+  "threshold_note": "Fijo en 0.5; sin optimizaci\u00f3n sobre test ni sobre validaci\u00f3n pooled.",
+  "cusum_h": 7.0,
+  "cusum_k": 0.5,
+  "gkf_splits": 5,
+  "n_bootstrap_groups": 800,
+  "afpdb_path": "C:\\Users\\miche\\OneDrive\\Documentos\\Medicons\\afpdb",
+  "wfdb_pn_dir_used": "afpdb",
+  "n_main_rows": 50,
+  "main_task": "far_vs_preonset_p30min_only"
+}

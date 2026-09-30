@@ -1,13 +1,16 @@
 ﻿# Python
 __pycache__/
 *.py[cod]
-*.class
+*$py.class
+*.so
+.Python
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .venv/
 venv/
 env/
+ENV/
 
 # Secrets / credentials
 .env
@@ -17,26 +20,66 @@ env/
 FIEL/
 fiel/
 
-# OS / IDE
+# OS / IDE / OneDrive junk
 .DS_Store
 Thumbs.db
+desktop.ini
+~$*
 .vscode/
 .idea/
-
-# Large/local data (PhysioNet AFPDB waveforms)
-afpdb/
-*.dat
-
-# Heavy generated artifacts / caches
-artifacts/
-notebook_cache/
-outputs_medicon2026/
-*.pptx
+*.lnk
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Archives / packages
+# PhysioNet AFPDB (download locally; do not redistribute)
+afpdb/
+*.dat
+*.hea
+*.atr
+*.qrs
+*.wqrs
+
+# Heavy local caches / raw extracts
+notebook_cache/
+**/__pycache__/
+
+# Archives / compressed dumps
 *.zip
 *.7z
+*.rar
+*.tar
 *.tar.gz
+*.tgz
+
+# Editorial / publisher materials (Springer copyright; do not redistribute)
+*.docx
+Word-MEDICON*.docx
+*Springer*
+*LicenceToPublish*
+*LicenseToPublish*
+*submission_package*
+entregable_metodologia*.pdf
+
+# Presentations (optional local)
+*.pptx
+
+# Large raster intermediates (keep PNGs/SVGs via exceptions below)
+*.tif
+*.tiff
+
+# Default: ignore generated trees, then allow small paper-facing outputs
+artifacts/*
+!artifacts/tables/
+artifacts/tables/windows_raw*
+!artifacts/figures/
+!artifacts/reports/
+artifacts/figures/*.tif
+artifacts/figures/*.tiff
+
+outputs_medicon2026/*
+!outputs_medicon2026/*.csv
+!outputs_medicon2026/*.json
+!outputs_medicon2026/figures/
+outputs_medicon2026/figures/*.tif
+outputs_medicon2026/figures/*.tiff
