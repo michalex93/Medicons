@@ -6,7 +6,7 @@ from __future__ import annotations
 import json, os, sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent  # repo root
 sys.path.insert(0, str(ROOT / "src"))
 os.chdir(ROOT)
 

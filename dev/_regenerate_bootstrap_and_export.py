@@ -8,7 +8,7 @@ import json, subprocess, sys, os
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
-os.chdir(Path(__file__).resolve().parent)
+os.chdir(Path(__file__).resolve().parent.parent)  # repo root
 sys.path.insert(0, 'src')
 
 import numpy as np
